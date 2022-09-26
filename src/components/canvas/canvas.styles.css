@@ -1,0 +1,37 @@
+.img-visible {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.img-hidden {
+  visibility: hidden;
+}
+
+#remove-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.upload-input-container {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}
+
+#upload-input {
+  display: none;
+}
+
+#upload-input-label {
+  left: 10px;
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}

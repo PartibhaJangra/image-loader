@@ -1,15 +1,10 @@
-.img-visible {
-  height: 300px;
-  width: 300px;
-  position: absolute;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.img-hidden {
-  visibility: hidden;
-}
-
-.image-upload-container {
-  position: absolute;
-  bottom: 30px;
-  width: 100;
+body {
+  min-height: 100vh;
+  border: 4px solid black;
 }
